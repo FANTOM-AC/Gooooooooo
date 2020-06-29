@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="682.0" prefWidth="1044.0" style="-fx-background-color: fafafafa;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RegController">
+   <children>
+      <TextField fx:id="country1" layoutX="229.0" layoutY="316.0" prefHeight="25.0" prefWidth="169.0" promptText="Страна" />
+      <AnchorPane prefHeight="112.0" prefWidth="1044.0" style="-fx-background-color: #2E3348;">
+         <children>
+            <Label layoutX="800.0" layoutY="6.0" prefHeight="29.0" prefWidth="238.0" text="ООО &quot;ДАЛЬНОБОЙ&quot;" textFill="WHITE">
+               <font>
+                  <Font name="Verdana Italic" size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="353.0" layoutY="48.0" prefHeight="29.0" prefWidth="339.0" text="Доставка не по всей России" textFill="WHITE">
+               <font>
+                  <Font name="Verdana Italic" size="23.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="444.0" layoutY="176.0" prefHeight="29.0" prefWidth="157.0" text="Регистрация">
+         <font>
+            <Font name="Verdana Italic" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name1" layoutX="229.0" layoutY="256.0" prefHeight="25.0" prefWidth="169.0" promptText="Имя" />
+      <TextField fx:id="secondname1" layoutX="438.0" layoutY="256.0" prefHeight="25.0" prefWidth="169.0" promptText="Фамилия" />
+      <TextField fx:id="middlename1" layoutX="647.0" layoutY="256.0" prefHeight="25.0" prefWidth="169.0" promptText="Отчество" />
+      <TextField fx:id="mail1" layoutX="647.0" layoutY="316.0" prefHeight="25.0" prefWidth="169.0" promptText="Электронная почта" />
+      <TextField fx:id="city1" layoutX="438.0" layoutY="316.0" prefHeight="25.0" prefWidth="169.0" promptText="Город" />
+      <CheckBox fx:id="man1" layoutX="401.0" layoutY="384.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="75.0" text="Мужчина" />
+      <CheckBox fx:id="women1" layoutX="570.0" layoutY="384.0" mnemonicParsing="false" text="Женщина" />
+      <PasswordField fx:id="passwor1" layoutX="448.0" layoutY="451.0" promptText="Придумайте пароль" />
+      <PasswordField fx:id="password2" layoutX="448.0" layoutY="498.0" promptText="Подтвердите пароль " />
+      <Button fx:id="registraciua1" layoutX="444.0" layoutY="589.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="157.0" style="-fx-background-color: #2E3348;" text="Зарегистрироваться" textFill="WHITE" />
+   </children>
+</AnchorPane>
